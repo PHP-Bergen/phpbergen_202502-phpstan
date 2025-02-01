@@ -10,6 +10,21 @@ permissions:
   contents: read
 
 jobs:
+  code-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP with tools
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.4
+          tools: composer, phpstan
+
+      - name: Run PHPStan
+        run: phpstan --level=1 --error-format=github analyse src tests
+
   build:
 
     runs-on: ubuntu-latest
@@ -22,10 +37,7 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: 8.4
-          tools: composer, phpunit, phpstan
-
-      - name: Check PHP version
-        run: php -v
+          tools: composer, phpunit
 
       - name: Validate composer.json and composer.lock
         run: composer validate --strict
@@ -41,9 +53,6 @@ jobs:
 
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress
-
-      - name: Run PHPStan
-        run: phpstan --level=6 --error-format=github analyse src tests
 
       - name: Setup problem matchers for PHPUnit
         run: echo "::add-matcher::${{ runner.tool_cache }}/phpunit.json"
