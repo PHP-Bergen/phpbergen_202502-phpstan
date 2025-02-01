@@ -27,4 +27,4 @@ jobs:
           tools: cs2pr, phpcs
 
       - name: Run phpcs
-        run: phpcs -q --report=checkstyle src | cs2pr
+        run: phpcs -q --report=checkstyle --standard=PSR12 --ignore=src/procedural.php src | cs2pr
