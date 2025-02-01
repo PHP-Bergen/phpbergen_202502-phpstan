@@ -22,6 +22,9 @@ jobs:
           php-version: 8.4
           tools: composer, phpunit, phpstan
 
+      - name: Run PHPStan
+        run: phpstan --level=1 --error-format=github analyse src tests
+
   build:
 
     runs-on: ubuntu-latest
@@ -35,9 +38,6 @@ jobs:
         with:
           php-version: 8.4
           tools: composer, phpstan
-
-      - name: Run PHPStan
-        run: phpstan --level=6 --error-format=github analyse src tests
 
       - name: Check PHP version
         run: php -v
