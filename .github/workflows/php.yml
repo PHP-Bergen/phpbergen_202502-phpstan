@@ -27,7 +27,7 @@ jobs:
           tools: composer, phpstan
 
       - name: Run PHPStan
-        run: phpstan --level=1 --error-format=github analyse src tests
+        run: phpstan --level=4 --error-format=github analyse src tests
 
   build:
 
