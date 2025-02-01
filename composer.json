@@ -28,5 +28,8 @@
     "psr-4": {
       "Phpbergen\\Tests\\": "tests"
     }
+  },
+  "require-dev": {
+    "phpstan/phpstan": "2.1.x-dev"
   }
 }
