@@ -19,7 +19,7 @@ function get_beer_by(string $type): string
 }
 
 $beer_example = get_beer_by('ipa');
-$beer_example2 = get_beer_by([]);
-if ($beer_example === []) {
+$beer_example2 = get_beer_by('');
+if ($beer_example === 'Unknown') {
     echo 'No beer found';
 }
