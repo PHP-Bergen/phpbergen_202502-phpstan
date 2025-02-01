@@ -13,7 +13,6 @@ jobs:
   runs-on: ubuntu-latest
 
   code-quality:
-    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,9 +27,6 @@ jobs:
         run: phpstan --level=1 --error-format=github analyse src tests
 
   build:
-
-    runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
