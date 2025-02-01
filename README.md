@@ -1,4 +1,6 @@
-[![PHP latest](https://github.com/PHP-Bergen/phpbergen_202502-phpstan/actions/workflows/php.yml/badge.svg)](https://github.com/PHP-Bergen/phpbergen_202502-phpstan/actions/workflows/php.yml)
+[![PHP linting](https://github.com/PHP-Bergen/phpbergen_202502-phpstan/actions/workflows/linter.yml/badge.svg)](https://github.com/PHP-Bergen/phpbergen_202502-phpstan/actions/workflows/linter.yml)
+[![PHP code quality](https://github.com/PHP-Bergen/phpbergen_202502-phpstan/actions/workflows/php.yml/badge.svg)](https://github.com/PHP-Bergen/phpbergen_202502-phpstan/actions/workflows/php.yml)
+
 # Static analyse using PHPStan - PHP Bergen
 
 ## PHPStan - https://phpstan.org/
