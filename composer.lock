@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "1caf7d6cf42078fa8d30f26f1e43943ed6b01dae"
+                "reference": "4dcc3fcbab92e734fc0c08d9cfd97f5a1aef18ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/1caf7d6cf42078fa8d30f26f1e43943ed6b01dae",
-                "reference": "1caf7d6cf42078fa8d30f26f1e43943ed6b01dae",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/4dcc3fcbab92e734fc0c08d9cfd97f5a1aef18ca",
+                "reference": "4dcc3fcbab92e734fc0c08d9cfd97f5a1aef18ca",
                 "shasum": ""
             },
             "require": {
@@ -56,7 +56,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-01-28T20:44:34+00:00"
+            "time": "2025-02-10T14:20:57+00:00"
         },
         {
             "name": "illuminate/contracts",
@@ -64,12 +64,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "534b697fc1dd9fbdd9fbf2f33fc9dcbb943dea75"
+                "reference": "b350a3cd8450846325cb49e1cbc1293598b18898"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/534b697fc1dd9fbdd9fbf2f33fc9dcbb943dea75",
-                "reference": "534b697fc1dd9fbdd9fbf2f33fc9dcbb943dea75",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/b350a3cd8450846325cb49e1cbc1293598b18898",
+                "reference": "b350a3cd8450846325cb49e1cbc1293598b18898",
                 "shasum": ""
             },
             "require": {
@@ -104,7 +104,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-01-10T20:57:00+00:00"
+            "time": "2025-02-10T14:20:57+00:00"
         },
         {
             "name": "nette/neon",
@@ -181,12 +181,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "2c0a5b0793ed7dd4b771ce286c58ba04ef2dce79"
+                "reference": "2042dce8dda02873f9baa672be6cf37d758c4124"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2c0a5b0793ed7dd4b771ce286c58ba04ef2dce79",
-                "reference": "2c0a5b0793ed7dd4b771ce286c58ba04ef2dce79",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2042dce8dda02873f9baa672be6cf37d758c4124",
+                "reference": "2042dce8dda02873f9baa672be6cf37d758c4124",
                 "shasum": ""
             },
             "require": {
@@ -232,7 +232,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-02-01T20:18:23+00:00"
+            "time": "2025-02-19T19:55:11+00:00"
         },
         {
             "name": "psr/container",
@@ -346,12 +346,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "2cbfb3641dfaae3ab168a8d764ec65161ef33950"
+                "reference": "a97683d6397ea49ebd6472d6b24c51f86f1f989a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/2cbfb3641dfaae3ab168a8d764ec65161ef33950",
-                "reference": "2cbfb3641dfaae3ab168a8d764ec65161ef33950",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/a97683d6397ea49ebd6472d6b24c51f86f1f989a",
+                "reference": "a97683d6397ea49ebd6472d6b24c51f86f1f989a",
                 "shasum": ""
             },
             "require": {
@@ -423,7 +423,7 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-01-30T11:48:57+00:00"
+            "time": "2025-02-19T10:29:05+00:00"
         },
         {
             "name": "symfony/console",
@@ -675,12 +675,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "724e6c68cc3cb7c618860a824e5cbda91815e374"
+                "reference": "2b42be26326a4fae4313751b40a2ecb60e619311"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/724e6c68cc3cb7c618860a824e5cbda91815e374",
-                "reference": "724e6c68cc3cb7c618860a824e5cbda91815e374",
+                "url": "https://api.github.com/repos/symfony/process/zipball/2b42be26326a4fae4313751b40a2ecb60e619311",
+                "reference": "2b42be26326a4fae4313751b40a2ecb60e619311",
                 "shasum": ""
             },
             "require": {
@@ -728,7 +728,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-12-12T06:45:37+00:00"
+            "time": "2025-02-14T16:23:49+00:00"
         },
         {
             "name": "symfony/service-contracts",
@@ -907,12 +907,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TomasVotruba/phpstan-bodyscan.git",
-                "reference": "9a9c1c93ee09495ce0d9c94d78e3da79670c3553"
+                "reference": "91d39b4d9257d7dd086ba0a817d240fcddb0fcc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TomasVotruba/phpstan-bodyscan/zipball/9a9c1c93ee09495ce0d9c94d78e3da79670c3553",
-                "reference": "9a9c1c93ee09495ce0d9c94d78e3da79670c3553",
+                "url": "https://api.github.com/repos/TomasVotruba/phpstan-bodyscan/zipball/91d39b4d9257d7dd086ba0a817d240fcddb0fcc2",
+                "reference": "91d39b4d9257d7dd086ba0a817d240fcddb0fcc2",
                 "shasum": ""
             },
             "require": {
@@ -962,7 +962,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-01-17T00:16:30+00:00"
+            "time": "2025-02-13T10:15:09+00:00"
         },
         {
             "name": "webmozart/assert",
