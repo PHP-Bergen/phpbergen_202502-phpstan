@@ -9,6 +9,10 @@
 * Static vs runtime
 * PHPStan rule levels `--level 3`
 * PHPStan `--generate-baseline` https://phpstan.org/user-guide/baseline
+* PHPStan Bodyscan - https://github.com/TomasVotruba/phpstan-bodyscan
+* Why Final Classes make Rector and PHPStan more powerful - https://tomasvotruba.com/blog/why-final-classes-make-rector-and-phpstan-more-powerful
+
+
 ```
 includes:
 	- phpstan-baseline.neon

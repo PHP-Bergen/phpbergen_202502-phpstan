@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "\\phpbergen\\TalkTopic\\": "src/"
+      "\\phpbergen\\Phpstan\\": "src/"
     }
   },
   "autoload-dev": {
@@ -30,7 +30,8 @@
     }
   },
   "require-dev": {
-    "phpstan/phpstan": "2.1.x-dev",
-    "squizlabs/php_codesniffer": "^3.11"
+    "phpstan/phpstan": "^2.1",
+    "squizlabs/php_codesniffer": "^3.11",
+    "tomasvotruba/phpstan-bodyscan": "dev-main"
   }
 }
