@@ -2,8 +2,7 @@
 
 declare(strict_types=1);
 
-function get_beer_by($type)
-{
+function get_beer_by($type) {
     switch ($type) {
         case 'ipa':
             $example = 'Ægir IPA';
@@ -12,7 +11,7 @@ function get_beer_by($type)
             $example = 'Guinness Stout';
             break;
         default:
-            $example = FALSE;
+            $example = false;
     }
 
     return $example;

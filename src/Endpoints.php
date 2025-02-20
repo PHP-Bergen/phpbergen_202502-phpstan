@@ -2,7 +2,8 @@
 
 namespace phpbergen\Phpstan;
 
-final readonly class Endpoints {
+final readonly class Endpoints
+{
 
     public function getData(): array
     {
@@ -25,7 +26,6 @@ final readonly class Endpoints {
           '96 bottles of beer',
           '95 bottles of beer',
         ];
-
     }
 
 }
