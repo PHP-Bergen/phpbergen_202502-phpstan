@@ -12,7 +12,8 @@
   "license": "MIT",
   "minimum-stability": "dev",
   "require": {
-    "php": ">=8.4"
+    "php": ">=8.4",
+    "nikic/php-parser": "^5.4"
   },
   "config": {
     "platform": {
